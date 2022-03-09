@@ -1,0 +1,6 @@
+
+az vm image list --location eastus --offer windows_2019 --all --output table
+az vm image list --location westus --offer windows_2019 --all --output table
+
+az vm image list --location eastus --sku rhel8 --all --output table
+az vm image list --location westus--sku rhel8 --all --output table
